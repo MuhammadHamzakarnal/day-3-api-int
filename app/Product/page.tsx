@@ -79,7 +79,7 @@ const page = async () => {
 
         {/* Product Grid */}
         <div className="w-full md:w-[calc(100%-260px)]">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-5 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-4 gap-8">
             {products.map((product, index) => (
               <div
                 className="group bg-gradient-to-b from-gray-50 to-white shadow-md rounded-lg overflow-hidden hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col"
