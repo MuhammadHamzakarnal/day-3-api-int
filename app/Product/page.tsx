@@ -131,7 +131,7 @@ const page = async () => {
                   </p>
 
                   {/* Description */}
-                  <p className="text-gray-600 text-sm mb-4 group-hover:text-gray-800 transition-colors duration-300">
+                  <p className="text-gray-600 text-sm mb-4 group-hover:text-gray-800 transition-colors duration-300 lan">
                     {product.description}
                   </p>
                 </div>
